@@ -38,7 +38,7 @@ server.get('/fetch-wordpress-graphql', async (_req, res) => {
 });
 
 server.get('/envs', (req, res) => {
-  console.log('hello!! trigger slash webhoock');
+  console.log('hello!! trigger slash webhosdsdsdsdock');
   console.log(process.env);
   res.send('Envs displayed in logs!');
 });
