@@ -28,10 +28,7 @@ server.get('/fetch-wordpress-graphql', async (_req, res) => {
               }
             }
           }
-        }
-      }
-    }
-  `;
+ 
 
   const response = await axios.post(process.env.GRAPHQL_API_URL, { query });
   res.send(response.data.data.posts.nodes);
