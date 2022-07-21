@@ -35,8 +35,8 @@ server.get('/fetch-wordpress-graphql', async (_req, res) => {
 });
 
 server.get('/envs', (req, res) => {
-  console.log('hello! commmit');
-  console.log(process.env);
+  console.lohello! commmit');
+  console.log(process.env
   res.send('Envs displayed in logs! trigger push');
 });
 
