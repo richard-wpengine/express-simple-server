@@ -44,5 +44,5 @@ server.get('/envs', (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Application is listening at port ${PORT}`);
+  console.log('PORT: ',`Application is listening at port ${PORT}`);
 });
