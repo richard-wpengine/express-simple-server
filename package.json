@@ -10,6 +10,11 @@
   "author": "Konrad Glowacki <konrad.glowacki@wpengine.com> (wpengine.com)",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.2",
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "18.15.x",
+    "npm": "9.x.x"
   }
 }
